@@ -26,7 +26,7 @@ let e=new Promise((resolve) => {
 })
 
 let ans=Promise.any([a,b,c,d,e]);
-window.promises[a,b,c,d,e];
+window.promises=[a,b,c,d,e];
 ans.then((data)=>{
 	const ele = document.getElementById("output");
     ele.innerText=data;
